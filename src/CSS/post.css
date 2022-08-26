@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Oswald:wght@200&family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.post_div
+        {
+                height: 100vh ;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                background:  #589b95 ;
+        }
+.post_first_div
+        {
+                padding: 1rem;
+                width: 50%;
+                margin: auto; 
+                text-align: center;  
+                background-color: #84c4ee ;  
+        }
+.post_heading
+        {
+               font-size: 3rem;
+               letter-spacing: 0.2rem;
+               text-transform: capitalize;
+               font-weight: 900;
+        } 
+.post_input
+        {
+               width: 75%;
+               height: 2.3rem;
+               text-align: center;
+               margin: 1rem 0;
+               font-size: 1.2rem;
+               font-weight: 600;
+               border-radius: 0.5rem;
+               outline:none ;
+               background: transparent;
+               border: 2px solid black;
+        }
+#btn_css
+        {
+               width: 25%;
+        }
+.btn_div
+        {
+               display: flex;
+               justify-content: space-around;
+        }
+.view_btn
+        {
+               width: 25%;
+               height: 2.3rem;
+               text-align: center;
+               margin: 0.5rem 0;
+               font-size: 1.2rem;
+               font-weight: 600;
+               border-radius: 0.5rem;
+               outline:none ;
+               background: transparent;
+               border: 2px solid black;
+        }

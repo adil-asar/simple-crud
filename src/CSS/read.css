@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Oswald:wght@200&family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+
+}
+.read_div
+        {
+                height: auto;
+                width: 100%;
+                display: flex;
+                padding: 2rem;
+        
+                justify-content: center; 
+                background:  #589b95 ;
+        }
+.read_first_div
+        {
+                padding: 1rem 1rem 0rem 1rem  ;
+                width: 90%;
+                padding: 5rem;
+                margin: 5rem auto; 
+                text-align: center;  
+                background-color: #84c4ee ;  
+        }
+.table_style
+        {
+                border: 2px solid  #589b95;
+                
+        }        
+.table_head
+        {
+                font-size: 1.3rem;
+                letter-spacing: 0.1rem;
+                font-weight: 900;
+                color: black;
+                text-decoration: none;
+        }        
+.table_body
+        {
+                font-size: 1.1rem;
+                letter-spacing: 0.1rem;
+                font-weight: 600;
+                color: black;
+
+        }  
+        .read_button
+        {
+            font-size: 1.1rem;  
+            letter-spacing: 0.1rem;
+            
+            padding: 0.2rem 1rem;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+            border: 2px solid #589b95;
+            border-radius: 0.5rem;
+            text-transform: capitalize; 
+            color: #16A085 ;  
+        } 
+        .go_back{
+                font-size: 1.1rem;  
+                letter-spacing: 0.1rem;
+                background: transparent;
+                padding: 0.2rem 1rem;
+                font-weight: 700 !important;
+                letter-spacing: 0.1rem;
+                border: 2px solid black;
+                color: black !important;
+                border-radius: 0.5rem;
+                text-transform: capitalize; 
+                color: #16A085 ;
+                margin: 1rem 0;
+        }
+.delete_btn_css
+        {
+                font-size: 1.1rem;  
+                letter-spacing: 0.1rem;
+                background: transparent;
+                padding: 0.2rem 1rem;
+                font-weight: 700 !important;
+                letter-spacing: 0.1rem;
+                border: 2px solid black;
+                color: black !important;
+                border-radius: 0.5rem;
+                text-transform: capitalize; 
+                color: #16A085 ;
+                margin: 0rem 0.7rem;  
+        }
+.update_btn_css
+        {
+                font-size: 1.1rem;  
+                letter-spacing: 0.1rem;
+                background: transparent;
+                padding: 0.2rem 1rem;
+                font-weight: 700 !important;
+                letter-spacing: 0.1rem;
+                border: 2px solid black;
+                color: black !important;
+                border-radius: 0.5rem;
+                text-transform: capitalize; 
+                color: #16A085 ;
+                margin: 0rem 0.7rem;       
+        }
+        @media only screen and (max-width: 1000px)
+        
+        {
+        .read_div
+        {
+                height: auto;
+                width: 100%;
+                display: flex;
+                padding: 2rem;
+        
+                justify-content: center; 
+                background:  #589b95 ;
+        }
+
+}
+.read_first_div
+        {
+                padding: 1rem 1rem 0rem 1rem  ;
+                width: 95%;
+                padding: 3rem;
+                margin: 3rem auto; 
+                text-align: center;  
+                background-color: #84c4ee ;  
+        }
+
+        
