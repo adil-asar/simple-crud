@@ -18,7 +18,7 @@ navigate('/post');
   const [fetch,setfetch]=useState([]);
   const [fill,setfill]=useState({ email:"" , password:"" });
 
-  useEffect(() => {fetch_data()}, [])
+  useEffect(() => {fetch_data()}, [fetch])
   
 
 const fetch_data=()=>{
@@ -42,7 +42,7 @@ const Filled=(user)=>{
 
 const postdelete=(id)=>{
 
-  axios.delete(`http://localhost:3000/records/${id}`).then(() => { alert("Post deleted!");});
+  axios.delete(`http://localhost:3000/records/${id}`).then(() => {});
   fetch_data()
 
 }
